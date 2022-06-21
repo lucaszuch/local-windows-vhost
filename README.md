@@ -27,9 +27,17 @@ XAMPP is not going to start as usual, some standard company softwares are using 
 ## HeidiSQL settings: :alembic:
 HeidiSQL is going to support you in big DB tasks and allow your to access remote servers.
 ### Setup local server:
--
-### Setup remove server:
--
+- Add a new Session. (Recommended for local env to identify the session. E.g. Local7_1, Local80, etc.
+- If you haven't changed your port and password, no additional changes are required.
+- Start MySQL on XAMPP.
+- Create a new DB.
+- Navegate to File > Run SQL file. The SQL file is going to be executed locally.
+- Refresh the page (F5).
+
+### Setup remote server:
+- Add a new session.
+- Add the credentials (HOSTNAME/IP and password).
+- Connect to the needed DB.
 
 ## Setup vhosts: :computer:
 Now, we're ready to crack new projects. In order to make our life easier we will setup multiple virtual hosts, that way we can call individual URLs and set config files directly to it.
