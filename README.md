@@ -69,3 +69,4 @@ Note that 8080 has to match the port you have setup.
 ## Additional issues you may encounter:
 ### MySQL related:
 - max_allowed_packet’: from you XAMPP panel click config for MySQL > access my.init > find max_allowed_packet and change it to 10M.
+- php_intl: navigate to XAMPP's root folder > PHP > php.init > find ;extension=intl and remove ';'.
