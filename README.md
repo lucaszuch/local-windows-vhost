@@ -65,3 +65,7 @@ Note that 8080 has to match the port you have setup.
 - At the bottom of the file add your necessary vhosts using: 127.0.0.1 <desired-url> (e.g. 127.0.0.1 dlight.loc).
 - Save the file.
 - You can now access the project via the browser using: http://desired-url:8080 and that's likely the $CFG->wwwroot used on projects.
+
+## Additional issues you may encounter:
+### MySQL related:
+- max_allowed_packet’: from you XAMPP panel click config for MySQL > access my.init > find max_allowed_packet and change it to 10M.
